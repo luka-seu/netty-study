@@ -1,4 +1,4 @@
-package cn.plasticlove.netty.firstdemo;
+package cn.plasticlove.netty.demo;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;

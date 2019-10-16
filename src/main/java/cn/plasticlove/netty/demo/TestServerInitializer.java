@@ -1,6 +1,5 @@
-package cn.plasticlove.netty.firstdemo;
+package cn.plasticlove.netty.demo;
 
-import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
 import io.netty.channel.socket.SocketChannel;
