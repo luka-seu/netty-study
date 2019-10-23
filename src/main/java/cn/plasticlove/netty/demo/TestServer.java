@@ -6,6 +6,8 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 
+import java.nio.ByteBuffer;
+
 /**
  * @author Luka
  */
@@ -21,9 +23,8 @@ public class TestServer {
         }finally {
             bossGroup.shutdownGracefully();
             workerGroup.shutdownGracefully();
+
         }
-
-
 
     }
 

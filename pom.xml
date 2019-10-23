@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>groupId</groupId>
-    <artifactId>netty-study</artifactId>
+    <groupId>cn.plasticlove</groupId>
+    <artifactId>network</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
@@ -27,7 +27,7 @@
     </properties>
 
     <build>
-        <finalName>netty-demo</finalName>
+        <finalName>network</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
