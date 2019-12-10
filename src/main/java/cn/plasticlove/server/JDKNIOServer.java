@@ -52,6 +52,8 @@ public class JDKNIOServer {
                         ServerSocketChannel server = (ServerSocketChannel) selectionKey.channel();
                         SocketChannel client = server.accept();
                         client.configureBlocking(false);
+                        //op_read表示通道可读。这里是指服务端读取客户端数据
+                        //op_write表示通道可写，这里表示服务端可以向客户端写数据
                         client.register(selector,SelectionKey.OP_WRITE|SelectionKey.OP_READ,buffer.duplicate());
                         System.out.println("connection from: "+client);
                     }
